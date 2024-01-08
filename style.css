@@ -1,13 +1,14 @@
+
+/* Banner part */
 .first-banner{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-image: url(images/Banner\ Image.png) ;
+    background-image: url(images/Banner\ Image.png);
+    border-radius: 16px;
     background-repeat: no-repeat;
     background-position: center;
     width: 1320px; height: 600px;
     margin: auto;
-    border-radius: 16px;
-    
-    
+    border-radius: 16px;    
 }
 .new-year{
     position: relative;
@@ -16,7 +17,7 @@
 .banner-title{
     padding-top: 177px;
     color: #FFF;
-    font-family: Merriweather;
+    font-family: Merriweather,Arial, Helvetica, sans-serif;
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
@@ -24,11 +25,54 @@ line-height: normal;
 }
 .banner-heading{
 color: #FFF;
-font-family: Merriweather;
+font-family: Merriweather,Arial, Helvetica, sans-serif;
 font-size: 72px;
 font-style: normal;
 font-weight: 900;
 line-height: 95px;
 width: 632px;
+margin: auto;
+}
+/* main part */
+.off-section{
+    text-align: center;
+}
+.off{
+    color: #F00;
+text-align: center;
+font-family: Inter, Arial, Helvetica, sans-serif;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 0px;
+}
+.deals{
+color: #F00;
+text-align: center;
+font-family: Inter, Arial, Helvetica, sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 0px;
+margin-bottom: 0px;
+margin-top: 30px;
+}
+.categories{
+color: #070211;
+text-align: center;
+font-family: Inter, Arial, Helvetica, sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: auto;
+padding-top: 0px;
+margin-top: 0px;
+margin-bottom: 85px;
+}
+.ny-photo{
+display: block;
 margin: auto;
 }
