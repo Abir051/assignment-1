@@ -175,7 +175,80 @@ align-items: center;
 border-radius: 8px;
 background: #F00;
 border: 0;
+font-size: 20px;
 color: white;
 padding: 16px 32px;
 }
-    
+/* comming-soon section */
+
+.coming-soon{
+    width: 1320px;
+height: 482px;
+justify-content: center;
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.nbo{
+    color: #F00;
+text-align: left;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+.cs{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin: 0px;
+padding:10px 0px;
+}
+.nyp{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */ 
+}
+.celebration{
+width: 364.844px;
+height: 364.844px;
+border: 10px solid red;
+padding: 15px;
+border-radius: 364.844px;
+
+}
+.ny24{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.newyp{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.hny{
+    width: 140px;
+height: 140px;
+}
