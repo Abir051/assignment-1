@@ -142,6 +142,7 @@ background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0,
 margin: auto;
 border-radius: 16px;
 text-align: center;
+margin-bottom: 120px;
 }
 .place-txt{
 color: #070211;
@@ -186,9 +187,8 @@ padding: 16px 32px;
 height: 482px;
 justify-content: center;
     display: flex;
-    margin-top: 120px;
-    justify-content: space-between;
     margin: auto;
+    justify-content: space-between;
 }
 
 .nbo{
@@ -251,4 +251,80 @@ line-height: 32px;
 .hny{
     width: 140px;
 height: 140px;
+}
+/* holyday-sale section */
+.holyday-sale-part{
+width: 1320px;
+height: 7335px;
+background: #FFF;
+margin: auto;
+}
+.holyday-sale-txt{
+    text-align: center;
+}
+.hh1{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.hh2{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+.sale-50{
+color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.hhp{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+    height: 86px;
+    margin: auto;
+}
+/* holyday-sale-image section */
+
+.holyday-sale-image{
+     display: flex;
+    align-items: center;
+    padding-left: 130px;
+   
+    
+}
+
+.gift-image{
+    width: 674.822px;
+    height: 577.961px;
+}
+.discount-image{
+    width: 206.841px;
+height: 206.841px;
+}
+
+
+.holyday-sale-image{
+    background-image: url(images/Rectangle\ 1.png), url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
