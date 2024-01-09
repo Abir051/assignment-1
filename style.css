@@ -440,6 +440,7 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-transform: capitalize;
+
 }
 ::placeholder{
     color: rgba(7, 2, 17, 0.30);
@@ -449,4 +450,82 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+.mail-submit-section{
+    position: relative;
+}
+/* Footer part */
+.footer-part{
+width: 1400px;
+
+background: #070211;
+margin: auto;
+margin-top: 100px;
+}
+
+
+.txt-website-call{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-row{
+width: 1320px;
+height: 1px;
+background: rgba(255, 255, 255, 0.15);
+margin-top: 50px;
+
+}
+.social-icons{
+    padding: 25px 0px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-txt{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.copyright-txt{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.icon-txt{color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 0px 50px;
+    padding:0px;
+}
+    
+.a{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;    
+}
+.b{
+    display: flex;
+    align-items: center;
+}
+.location-txt{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+width: 375px;
+height: 80px;
+margin: 0px 50px;
+margin-top: 120px;
 }
