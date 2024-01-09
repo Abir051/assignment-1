@@ -372,3 +372,81 @@ height: 450px;
     flex-wrap: wrap;
     gap: 15px;
 }
+/* newsletter section */
+.newsletter{
+    width: 1320px;
+/* height: 616px; */
+margin: auto;
+margin-top: 120px;
+background: rgba(255, 0, 0, 0.05);
+border-radius: 16px;
+}
+.newsletter-elements{
+    text-align: center;
+}
+.ns-h{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 10px;
+}
+.ns-p{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width: 896px;
+margin: auto;
+}
+.mail-submit-section{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+
+}
+.mail-submit{
+    border: none;
+    outline: none;
+    width: 648px;
+height: 72px;
+border-radius: 50px;
+background: #FFF;
+}
+.Subscribe{
+    border: none;
+    outline: none;
+    width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+}
+.mail-submit-section{
+    
+}
+.sub{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+text-align: left;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
