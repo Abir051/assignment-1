@@ -96,7 +96,7 @@ font-size: 64px;
 font-style: normal;
 font-weight: 900;
 line-height: 88px;
-letter-spacing: 7.04px;
+letter-spacing: 7px;
 width: 642px;
 }
 .party-p{
@@ -223,8 +223,8 @@ padding:10px 0px;
     line-height: 32px; /* 160% */ 
 }
 .celebration{
-width: 364.844px;
-height: 364.844px;
+width: 365px;
+height: 365px;
 border: 10px solid red;
 padding: 15px;
 border-radius: 364.844px;
@@ -255,9 +255,9 @@ height: 140px;
 /* holyday-sale section */
 .holyday-sale-part{
 width: 1320px;
-height: 7335px;
 background: #FFF;
 margin: auto;
+margin-bottom: 120px;
 }
 .holyday-sale-txt{
     text-align: center;
@@ -314,12 +314,12 @@ line-height: normal;
 }
 
 .gift-image{
-    width: 674.822px;
-    height: 577.961px;
+    width: 675px;
+    height: 578px;
 }
 .discount-image{
-    width: 206.841px;
-height: 206.841px;
+    width: 207px;
+height: 207px;
 }
 
 
@@ -328,4 +328,50 @@ height: 206.841px;
     background-repeat: no-repeat;
     background-position: top right, bottom;
     background-size:429px 433px , 1320px 145px;
+}
+/* portfolio section */
+.portfolio{
+    width:1320px;
+    margin: auto;
+}
+
+.gift-h{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 5px;
+}
+.pf-h{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin:10px 0px;
+}
+.pf-p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width: 896px;
+}
+.products{
+width: 424px;
+height: 450px;
+}
+.products-image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.products:hover img{
+    transform: scale(1.2);
 }
