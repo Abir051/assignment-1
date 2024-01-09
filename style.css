@@ -372,6 +372,3 @@ height: 450px;
     flex-wrap: wrap;
     gap: 15px;
 }
-.products:hover img{
-    transform: scale(1.2);
-}
