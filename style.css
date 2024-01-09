@@ -324,7 +324,8 @@ height: 206.841px;
 
 
 .holyday-sale-image{
-    background-image: url(images/Rectangle\ 1.png), url(images/Rectangle\ 2.png);
+    background-image: url(images/Rectangle\ 1.png),url(images/Rectangle\ 2.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: top right, bottom;
+    background-size:429px 433px , 1320px 145px;
 }
